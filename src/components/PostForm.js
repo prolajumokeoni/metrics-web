@@ -1,20 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
 const PostForm = ({ post }) => (
-  <div>
-    <h3>{post.id}</h3>
+  <NavLink to={`${post.id}`} className="text-center text-white text-decoration-none">
     <p>{post.title}</p>
-    <h3>{post.body}</h3>
-  </div>
+  </NavLink>
 );
-
-PostForm.propTypes = {
-  post: PropTypes.shape({
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-    body: PropTypes.string.isRequired,
-  }).isRequired,
-};
 
 export default PostForm;

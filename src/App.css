@@ -1,3 +1,10 @@
+
 body {
-  width: 50%;
+	background-color: #fa4f91 !important;
+	color: white !important;
+}
+
+.article {
+	margin: 0 auto;
+	width: 70%;
 }

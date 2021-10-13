@@ -9,13 +9,26 @@ const Posts = () => {
 
   useEffect(() => {
     dispatch(getPosts());
-  }, [dispatch, posts]);
-
+  }, [dispatch]);
+  const data = posts.sort((a, b) => b.title - a.title);
   return (
     <div>
-      {posts.map((post) => (
-        <PostForm key={post.id} post={post} />
-      ))}
+      <div className="border p-5 text-center">
+        <i className="fas fa-blog" />
+        {' '}
+        {' '}
+        All Blog Posts
+        {' '}
+        {data.length}
+      </div>
+      <div className="row m-0 p-0">
+        {data.map((post) => (
+          <div className="col-6 col-lg-4 border p-3" key={post.id}>
+            <i className="fab fa-hubspot" />
+            <PostForm post={post} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

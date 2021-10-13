@@ -9,15 +9,7 @@ export const fetchPosts = (payload) => ({
 
 export const getPosts = () => async (dispatch) => {
   const { data } = await axios.get(url);
-  const posts = [];
-  data.forEach((post) => {
-    const singlePost = {
-      id: post.userId,
-      title: post.title,
-      body: post.body,
-    };
-    posts.push(singlePost);
-  });
+  const posts = data.splice(0, 12);
   dispatch(fetchPosts(posts));
 };
 
