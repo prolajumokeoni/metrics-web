@@ -1,6 +1,7 @@
 body {
 	background-color: #fa4f91 !important;
 	color: white !important;
+	font-family: "Lato", sans-serif;
 }
 
 .article {
@@ -10,4 +11,8 @@ body {
 
 .border-pink {
 	border: 1px solid #b13968;
+}
+
+.blog:hover {
+	background-color: #b13968;
 }
