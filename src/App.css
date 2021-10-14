@@ -16,3 +16,22 @@ body {
 .blog:hover {
   background-color: #b13968;
 }
+
+.search-pink {
+  background-color: #c7678c;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 1%;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+input:focus {
+	outline: none;
+  	border: 1px solid #b13968;
+}
