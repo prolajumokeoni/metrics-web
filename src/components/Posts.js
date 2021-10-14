@@ -36,10 +36,10 @@ const Posts = () => {
         </div>
       </div>
       <div className="border-pink p-5 text-center fs-1 fw-bold">
-        <i className="fab fa-blogger-b" />
+        <i className="fab fa-blogger-b pe-3 fs-3" />
         {' '}
         All Blog Posts
-        {data.length}
+        <span className="px-3 fw-light">{data.length}</span>
       </div>
       <input type="text" className="search-pink" onChange={(e) => dataSearch(e.target.value)} placeholder="Search for post title" />
       <div className="row m-0 p-0">
