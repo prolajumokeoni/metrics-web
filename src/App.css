@@ -1,16 +1,16 @@
 body {
-	background-color: #fa4f91 !important;
-	color: white !important;
-	font-family: "Lato", sans-serif;
+  background-color: #fa4f91 !important;
+  color: white !important;
+  font-family: "Lato", sans-serif;
 }
 
 .article {
-	margin: 0 auto;
-	width: 70%;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .border-pink {
-	border: 1px solid #b13968;
+  border: 1px solid #b13968;
 }
 
 .blog:hover {
