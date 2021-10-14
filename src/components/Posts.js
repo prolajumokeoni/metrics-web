@@ -10,7 +10,15 @@ const Posts = () => {
   useEffect(() => {
     dispatch(getPosts());
   }, [dispatch]);
-  const data = posts.sort((a, b) => b.title.length - a.title.length);
+  const data = posts.sort((a, b) => {
+    if (a.title > b.title) {
+      return 1;
+    }
+    if (b.title > a.title) {
+      return -1;
+    }
+    return 0;
+  });
   return (
     <div>
       <div className="row px-2 fs-4 m-0 p-0">
@@ -26,14 +34,15 @@ const Posts = () => {
       <div className="border-pink p-5 text-center fs-1 fw-bold">
         <i className="fab fa-blogger-b" />
         {' '}
-        {' '}
         All Blog Posts
-        {' '}
         {data.length}
       </div>
       <div className="row m-0 p-0">
         {data.map((post) => (
-          <div className="col-6 col-lg-4 border-pink border-round p-3 text-center blog" key={post.id}>
+          <div
+            className="col-6 col-lg-4 border-pink border-round p-3 text-center blog"
+            key={post.id}
+          >
             <i className="fas fa-blog fs-1 fw-bold pl-3" />
             {' '}
             <PostForm post={post} />
