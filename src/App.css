@@ -32,6 +32,6 @@ body {
 }
 
 input:focus {
-  outline: none;
+  outline: #b13968;
   border: 3px solid #b13968;
 }
