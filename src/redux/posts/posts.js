@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const FETCH_POSTS = 'App/posts/GET_POSTS';
-const url = 'http://jsonplaceholder.typicode.com/posts';
+const url = 'https://jsonplaceholder.typicode.com/posts';
 export const fetchPosts = (payload) => ({
   type: FETCH_POSTS,
   payload,
