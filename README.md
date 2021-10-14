@@ -11,7 +11,7 @@
 ![DESKTOP](https://user-images.githubusercontent.com/69638013/137314852-d455c922-d8fd-4356-9d10-f667849045b1.png)
 
  ### Video
- 
+[Video](https://www.loom.com/share/51aba3bff9704b02a0561587327a7fd6)
 To get a local copy up and running follow these simple steps.
 
 - You can clone this repo by typing `git clone https://github.com/prolajumokeoni/metrics-web` on your terminal.
