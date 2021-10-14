@@ -22,6 +22,8 @@
 
 - Run `npm start` from your editor's terminal to view the project in your browser.
 
+### Tests
+- Run npm test
 # This project was built with:
 
 - JavaScript
@@ -31,7 +33,7 @@
 - Css
 # Version Control System
 
-GIT
+- GIT
 
 
 ## 👩🏿‍🏫Author
