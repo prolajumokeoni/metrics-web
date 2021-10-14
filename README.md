@@ -12,7 +12,7 @@
 
  ### Video
 [Video](https://www.loom.com/share/51aba3bff9704b02a0561587327a7fd6)
-To get a local copy up and running follow these simple steps.
+### To get a local copy up and running follow these simple steps.
 
 - You can clone this repo by typing `git clone https://github.com/prolajumokeoni/metrics-web` on your terminal.
 
