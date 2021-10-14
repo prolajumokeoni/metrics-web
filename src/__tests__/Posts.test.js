@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
 import Posts from '../components/Posts';
-import SinglePost from '../components/SinglePost'
+import SinglePost from '../components/SinglePost';
 
 test('Check if Home is rendering correctly', () => {
   const body = document.createElement('tbody');
@@ -17,7 +17,7 @@ test('Check if Home is rendering correctly', () => {
     </Provider>,
     body,
   );
-expect(screen).toMatchSnapshot();
+  expect(screen).toMatchSnapshot();
 });
 test('Check if Details is rendering correctly', () => {
   const body = document.createElement('tbody');
