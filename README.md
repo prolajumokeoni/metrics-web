@@ -4,9 +4,13 @@
 
 > **Metrics-Web** is a single page application and  API based website that displays two  pages. The `Home` page, where you can see, top 12 posts titles. And the `Posts` page, where you can get more details on a blog posts.
 
-# Live demo
+### Live demo
  [metrics-web](https://prometrics.herokuapp.com/)
 
+ ### Screenshot
+![DESKTOP](https://user-images.githubusercontent.com/69638013/137314852-d455c922-d8fd-4356-9d10-f667849045b1.png)
+
+ ### Video
  
 To get a local copy up and running follow these simple steps.
 
@@ -20,10 +24,11 @@ To get a local copy up and running follow these simple steps.
 
 # This project was built with:
 
-JavaScript
-
-React-Redux
-
+- JavaScript
+- React-Redux
+- Bootstrap
+- Html
+- Css
 # Version Control System
 
 GIT
@@ -39,7 +44,7 @@ GIT
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](/issues).
+Feel free to check the [issues page](https://github.com/prolajumokeoni/metrics-web/issues).
 
 # Show your support
 
@@ -49,4 +54,4 @@ Thanks to Nelson Sakwa of [Behance](https://www.behance.net/gallery/31579789/Bal
 
 # 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](https://github.com/prolajumokeoni/metrics-web/blob/development/LICENSE) licensed.
