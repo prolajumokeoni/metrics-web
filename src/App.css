@@ -1,0 +1,37 @@
+body {
+  background-color: #fa4f91 !important;
+  color: white !important;
+  font-family: "Lato", sans-serif;
+}
+
+.article {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.border-pink {
+  border: 1px solid #b13968;
+}
+
+.blog:hover {
+  background-color: #b13968;
+}
+
+.search-pink {
+  background-color: #c7678c;
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 1%;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+input:focus {
+  outline: #b13968;
+  border: 3px solid #b13968;
+}
